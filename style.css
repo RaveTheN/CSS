@@ -1,0 +1,89 @@
+:root {
+
+    --standard_height: 10rem;
+}
+
+
+div {
+    padding: 3rem;
+    margin: 0;
+
+}
+
+section {
+
+    height: 100%;
+
+}
+
+section.grid {
+
+    position: relative;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: 
+        "verde verde verde"
+        "giallo rosso blu"
+        "arancio arancio blu";
+        
+}
+
+.inner_grid {
+    
+    position: relative;
+    margin: 1rem;
+    padding: 0px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 35%);
+    grid-template-rows: repeat(2, 25%);
+    align-content: space-between;
+    justify-content: space-between;
+
+}
+
+.inner_grid > div {
+    
+    
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 1rem;
+
+}
+
+#green {
+
+    grid-area: verde;
+    background-color: rgb(185, 244, 163);
+
+}
+
+#yellow {
+
+    grid-area: giallo;
+    background-color: rgb(255, 255, 131);
+}
+
+#red {
+
+    grid-area: rosso;
+    background-color: rgb(244, 163, 163);
+}
+
+#orange {
+
+    grid-area: arancio;
+    background-color: rgb(244, 199, 163);
+}
+
+#blue {
+
+    grid-area: blu;
+    background-color: rgb(163, 214, 244);
+}
+
+
+
