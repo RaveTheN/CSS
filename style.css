@@ -1,5 +1,6 @@
 .cardcontainer {
 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-shadow: 0px 2px 3px;
     width: 20rem;
     height: 30rem;
@@ -25,7 +26,7 @@
 
 }
 
-/* START style for the elements in .userdata*/
+/*------------------ START of elements in .userdata--------------------------------------*/
 
 .userdata>div {
     
@@ -51,18 +52,33 @@
     width: 38px;
     height: 38px;
     border-radius: 19px;
-    
+
 }
 
 .username {
     max-width: 65%;
+    padding: 5px;
+}
+
+#nameofuser {
+
+    font-size: medium;
+    font-weight: lighter;
+}
+
+#dateposted {
+
+    font-size: small;
+    color: white;
 }
 
 .hamburger {
+    font-size:xx-large;
     max-width: 20%;
+    text-align: center;
 }
 
-/* END style for the elements in .userdata*/
+/* ---------------------------------END of elements in .userdata------------------------------*/
 
 .picture {
 
