@@ -17,6 +17,7 @@
     
 }
 
+/*------------------ START of .userdata sectoin--------------------------------------*/
 .userdata {
 
     height: 10%;
@@ -26,12 +27,10 @@
 
 }
 
-/*------------------ START of elements in .userdata--------------------------------------*/
 
 .userdata>div {
     
     height: 100%;
-    border: 1px solid black;
     flex: 1;
     
 }
@@ -73,27 +72,70 @@
 }
 
 .hamburger {
-    font-size:xx-large;
+    font-weight: bold;
+    font-size: 20px;
     max-width: 20%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
-/* ---------------------------------END of elements in .userdata------------------------------*/
+.hamburger>div {
+    max-height: 50%;
+    flex: 1;
+}
+
+/* ---------------------------------END of .userdata section ------------------------------*/
+
+
 
 .picture {
 
-    height: 50%;
+    height: 60%;
 }
 
+
+/*-------------------- START of .interaction section --------------------------------------*/
 .interaction {
 
     height: 10%;
-    background-color: grey;
-
-}
-
-.status {
-
-    height: 30%;
     background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    
+
 }
+
+.interaction>div {
+
+    height: 100%;
+    width: 10%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 5px; 
+
+}
+
+/*------------------ END of .interaction section --------------------------------------*/
+
+/*-------------------- START of .status section --------------------------------------*/
+.status {
+    height: 20%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.status>div {
+
+    width: 93%;
+    text-align: justify;
+}
+
+
+/*-------------------- END of .status section --------------------------------------*/
