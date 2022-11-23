@@ -29,7 +29,7 @@
     width: 100%;
     
 }
-
+/*the following sections are shown in the same order in which they appear in the html*/
 /*------------------ START of .userdata sectoin--------------------------------------*/
 .userdata {
 
@@ -104,6 +104,7 @@
 
 .picture {
 
+    width: 100%;
     height: 55%;
 }
 
@@ -112,7 +113,7 @@
 .interaction {
 
     height: 10%;
-    background-color: whitesmoke;
+    background-color: rgba(178,178,203,1);
     display: flex;
     flex-direction: row;
     padding-left: 15px;
@@ -137,7 +138,7 @@
 /*-------------------- START of .status section --------------------------------------*/
 .status {
     height: 25%;
-    background-color: whitesmoke;
+    background: linear-gradient(180deg, rgba(178,178,203,1) 0%, rgba(207,202,202,1) 100%);;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
